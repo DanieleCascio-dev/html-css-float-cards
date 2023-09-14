@@ -1,4 +1,6 @@
 :root {
+  --title-color: #e53170;
+  --bg-color: #0f0e17;
 }
 
 /* RESET */
@@ -14,9 +16,28 @@ body {
   font-family: "Fredoka", sans-serif;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.m-bt {
+  margin-bottom: 1.5rem;
+}
+
 /* /GENERAL SETTINGS */
 
 /* HEADER  */
+
+header {
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  color: var(--title-color);
+}
+
 /* /HEADER  */
 
 /* MAIN */
