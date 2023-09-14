@@ -52,25 +52,51 @@ h1 {
 /* MAIN */
 
 .cards-container {
-  background-color: blue;
 }
 
 .row {
+  padding: 2rem;
 }
 
 .card {
   float: left;
 
   width: calc(100% / 3);
-  background-color: var(--bg-color);
-  padding: 1.5rem;
+  /* min-height: 100px; */
+  padding-left: 2rem;
+
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .float-img {
   float: left;
-  height: 100px;
+  height: 80px;
 }
 
 .card-content {
+  color: #fff;
+  text-align: left;
+  float: left;
+  background-color: var(--bg-color);
+  /* min-height: 80px; */
+  max-height: 80px;
+  padding: 10px;
+}
+
+.card-content h3 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.card-content .work {
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding-bottom: 0.5rem;
+}
+
+.card-content .email {
+  text-decoration: none;
+  color: lightskyblue;
+  font-size: 0.8rem;
 }
 /* /MAIN */
