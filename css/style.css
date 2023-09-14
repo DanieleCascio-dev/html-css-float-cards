@@ -62,10 +62,11 @@ h1 {
   float: left;
 
   width: calc(100% / 3);
+  min-width: 340px;
   /* min-height: 100px; */
   padding-left: 2rem;
 
-  box-shadow: 5px 10px 8px #888888;
+  /* box-shadow: 1px 1px 1px #888888; */
 }
 
 .float-img {
@@ -81,6 +82,7 @@ h1 {
   /* min-height: 80px; */
   max-height: 80px;
   padding: 10px;
+  padding-right: 50px;
 }
 
 .card-content h3 {
