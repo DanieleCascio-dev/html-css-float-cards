@@ -25,6 +25,15 @@ body {
   margin-bottom: 1.5rem;
 }
 
+img {
+  max-width: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 /* /GENERAL SETTINGS */
 
 /* HEADER  */
@@ -41,4 +50,27 @@ h1 {
 /* /HEADER  */
 
 /* MAIN */
+
+.cards-container {
+  background-color: blue;
+}
+
+.row {
+}
+
+.card {
+  float: left;
+
+  width: calc(100% / 3);
+  background-color: var(--bg-color);
+  padding: 1.5rem;
+}
+
+.float-img {
+  float: left;
+  height: 100px;
+}
+
+.card-content {
+}
 /* /MAIN */
