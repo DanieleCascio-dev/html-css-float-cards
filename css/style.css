@@ -76,7 +76,8 @@ h1 {
   color: #fff;
   text-align: left;
   float: left;
-  width: 200px;
+  width: calc(100% - 100px);
+  /* width: 200px; */
 
   max-height: 80px;
   padding: 10px;
