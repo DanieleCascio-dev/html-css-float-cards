@@ -58,7 +58,7 @@ h1 {
 
 .card {
   float: left;
-  width: calc((100% / 3) - 45px);
+  width: calc((100% / 3) - 15px);
   min-width: 280px;
   /* max-width: 350px; */
   margin-bottom: 1rem;
@@ -98,3 +98,11 @@ h1 {
   font-size: 0.8rem;
 }
 /* /MAIN */
+
+/* grid */
+.col {
+  float: left;
+  width: calc(100% / 3);
+  padding: 1rem;
+  border: 1px solid blue;
+}
